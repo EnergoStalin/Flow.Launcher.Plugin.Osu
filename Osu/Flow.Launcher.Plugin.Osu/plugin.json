@@ -1,0 +1,12 @@
+{
+  "ID": "E0DCD184-E4D7-42D7-96EC-A1453C4A018D",
+  "ActionKeyword": "osu",
+  "Name": "Osu",
+  "Description": "a Osu plugin for Flow",
+  "Author": "EnergoStalin",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/EnergoStalin/Flow.Launcher.Plugin.Osu",
+  "IcoPath": "https://osu.ppy.sh/favicon-32x32.png",
+  "ExecuteFileName": "Flow.Launcher.Plugin.Osu.dll"
+}

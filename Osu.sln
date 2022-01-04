@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flow.Launcher.Plugin.Osu", "Osu\Flow.Launcher.Plugin.Osu\Flow.Launcher.Plugin.Osu.csproj", "{9C903CA9-27B7-4C2E-B20E-5EB82FABDD07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C903CA9-27B7-4C2E-B20E-5EB82FABDD07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C903CA9-27B7-4C2E-B20E-5EB82FABDD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C903CA9-27B7-4C2E-B20E-5EB82FABDD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C903CA9-27B7-4C2E-B20E-5EB82FABDD07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72FF9ED3-368F-4FAC-AD9B-64F122DE6B0D}
+	EndGlobalSection
+EndGlobal
