@@ -4,15 +4,15 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "build",
+			"label": "build-dotnet",
 			"command": "dotnet",
 			"type": "shell",
 			"args": [
 				"build",
 				"./Flow.Launcher.Plugin.Osu.csproj",
-				// Ask dotnet build to generate full paths for file names.
+				"-c",
+				"Release",
 				"/property:GenerateFullPaths=true",
-				// Do not generate summary otherwise it leads to duplicate errors in Problems panel
 				"/consoleloggerparameters:NoSummary"
 			],
 			"group": "build",
@@ -20,6 +20,20 @@
 				"reveal": "silent"
 			},
 			"problemMatcher": "$msCompile"
+		},
+		{
+			"label": "build",
+			"type": "shell",
+			"command": [
+				"cp .\\bin\\Release\\*.dll C:\\Users\\alexv\\AppData\\Roaming\\FlowLauncher\\Plugins\\Osu",
+				"&&",
+				"cp .\\plugin.json C:\\Users\\alexv\\AppData\\Roaming\\FlowLauncher\\Plugins\\Osu"
+
+			],
+			"dependsOn": [
+				"build-dotnet"
+			],
+			"problemMatcher": []
 		}
 	]
 }
